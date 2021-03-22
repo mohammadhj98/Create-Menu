@@ -1,16 +1,16 @@
-#Sakht menu
+#mohammad haje forosh
 import os
 studen_list = list()
 
 while True:
     #**************Start Menu ***************
-    flag = True # baraye hata vared kardan menu
+    flag = True 
     while True:
         print("1/Add student")
         print("2/show student")
         print("3/Exit")
 
-        if flag == False: # baraye hata vared kardan menu
+        if flag == False: 
             print("Error!",end="") 
         selected_menu = int(input("Menu = "))
         if selected_menu in [1,2,3]:
